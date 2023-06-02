@@ -287,6 +287,7 @@ It means, that just plots, which are visible in current window is requested from
 6. In production on the first load style files are not found (404).
 7. Run 338586 shows 404 not found, when it indeed exists (overlay with another plot). Fake Beam Monitor plot for example, is always in ME not found state
 8. When trying to change label with special chars (\_) of additional plot, it crashes  (overlay with another plot)
+9. When trying to overlay plots, only "ME NOT FOUND" is returned
 ---
 
 ## Next steps
